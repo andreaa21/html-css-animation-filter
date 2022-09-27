@@ -1,0 +1,166 @@
+/* soluzione 1 */
+
+.ex-1-square:hover{
+  background-color: red;
+}
+
+.ex-1-square{
+  transition: all 2s;
+}
+
+/* soluzione 2 */
+
+.ex-2-square:active{
+  width: 100%;
+}
+
+.ex-2-square{
+  transition: all 2s;
+}
+
+/* soluzione 3 */
+
+.ex-3-square:hover{
+  border-radius: 50%;
+}
+
+.ex-3-square{
+  transition: all 1s;
+}
+
+/* soluzione 4 */
+
+.ex-4-square:hover{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.ex-4-square{
+  transition: all 2s;
+}
+
+/* soluzione 5 */
+
+.ex-5-square:hover{
+  transform: scale(2,2);
+}
+
+.ex-5-square:active{
+  transform: scale(.5 ,.5);
+}
+
+.ex-5-square{
+  transition: all 1s;
+}
+
+/* soluzione 6 */
+
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
+
+/* soluzione 7 */
+
+.ex-7-img:hover{
+  filter: sepia(1) saturate(50%);
+}
+
+.ex-7-img{
+  transition: all 2s;
+}
+
+/* soluzione 8 */
+
+.ex-8-img:hover{
+  filter: sepia(1) saturate(50%);
+  border-radius: 20px;
+}
+
+.ex-8-img{
+  transition: all 2s;
+}
+
+/* soluzione 9 */
+
+.ex-9-img:hover{
+  filter: sepia(1) saturate(50%);
+  border-radius: 20px;
+  transform: scale(1.5,1.5);
+}
+
+.ex-9-img{
+  transition: all 2s;
+}
+
+/* soluzione 10 */
+
+.well .ex-10-icon{
+  animation: circle-rotation 1s linear infinite;
+}
+
+@keyframes circle-rotation{
+  0%{
+    transform: rotate(360deg);
+  }
+}
+
+/* soluzione 11 */
+
+.well .ex-11-icon:hover{
+  animation: circle-rotation-2 2s linear;
+}
+
+@keyframes circle-rotation-2{
+  0%{
+    transform: rotate(0);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(0)
+  }
+}
+
+/* soluzione 12 */
+
+.well:hover .ex-12-top-white{
+  animation: top-move 2s linear;
+}
+
+@keyframes top-move{
+  0%{
+    left: 0;
+  }
+  50%{
+    left: 60%;
+  }
+  100%{
+    left: 0;
+  }
+}
+
+.well:hover .ex-12-bottom-white{
+  animation: bottom-move 2s linear;
+}
+
+@keyframes bottom-move{
+  0%{
+    right: 0%;
+  }
+  50%{
+    right: 60%;
+  }
+  100%{
+    right: 0;
+  }
+}
+
+.well:hover a{
+  text-decoration: underline;
+}
+
+
+/* soluzione 13 */
+
+
+
